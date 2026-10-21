@@ -75,7 +75,7 @@ The notebook is written in Spanish, the language of the thesis. It is executed e
 Requires [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/<user>/football-player-scouting.git
+git clone https://github.com/alvaromtaboada/football-player-scouting.git
 cd football-player-scouting
 uv sync
 # put the input files in data/ (see data/README.md)
