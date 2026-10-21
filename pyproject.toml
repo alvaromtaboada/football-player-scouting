@@ -1,0 +1,26 @@
+[project]
+name = "football-player-scouting"
+version = "1.0.0"
+description = "Player segmentation, explainable ratings and transfer recommendation from FBref data (BSc thesis, UCM)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+# Versiones fijadas para reproducir exactamente los resultados de la memoria
+# (las mismas que Google Colab en junio de 2026).
+dependencies = [
+    "adjusttext>=1.3",
+    "matplotlib>=3.9",
+    "numpy==2.0.2",
+    "pandas==2.2.2",
+    "scikit-learn==1.6.1",
+    "scipy>=1.13",
+    "seaborn>=0.13.2",
+    "shap==0.48.0",
+    "umap-learn>=0.5.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "jupyter>=1.1",
+    "nbconvert>=7.16",
+]

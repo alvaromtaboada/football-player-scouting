@@ -1,0 +1,12 @@
+# Input data: not redistributed (see data/README.md)
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.ipynb_checkpoints/
+
+# System
+.DS_Store
